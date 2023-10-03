@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    padding-left: 100px;
+  
+    
+   
+}
+.info-container{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+   
+}
+
+   
+.left-info{
+    padding: 30px;
+    width: 50%;
+    height: 90%;
+}
+.left-info h1{
+    color: hsl(300, 43%, 22%);
+
+}
+
+.right-info p{
+color:hsl(300, 43%, 22%);
+}
+.right-info{
+        padding: 30px;
+        width: 50%;
+        height: 90%;
+        margin-top: 20px;
+
+}
+
+
+.rate1,.rate2,.rate3{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 20px;
+    display: flex;
+  padding: 10px;
+
+    
+}
+
+.rr2{
+    width:100% ;
+    height:30px ;
+   padding-left:40px;
+   padding-bottom: 20px;
+   margin: 0 auto;
+   align-items: center;
+}
+
+.rr3{
+    width:100% ;
+    height:30px ;
+   padding-left:80px;
+   padding-top: 30px;
+}
+.star{
+    padding-right: 30px;
+    align-self: center;
+}
+
+
+ img{
+    border-radius: 50%;
+    width: 40px;
+    height: inherit;
+}
+.buyers-container{
+   
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        padding: 30px;
+        padding-top: 0;
+
+}
+.buyer1, .buyer2, .buyer3{
+    background-color:hsl(300, 43%, 22%) ;
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 30px;
+}
+.buyer2{
+    margin-top: 20px;
+}
+.buyer3{
+    margin-top: 50px;
+}
+
+.hd1{
+    margin-top: 30px;
+    display: flex;
+   
+    gap: 15px;
+}
+ .hd1 .name{
+    color: hsl(0, 0%, 100%);
+}
+
+.hd1 .vb{
+    color: hsl(333, 80%, 67%);
+}
+.p{
+    color: hsl(0, 0%, 100%);
+}
