@@ -1,0 +1,7 @@
+body{
+    background-color: hsl(234, 29%, 20%);
+}
+.d-inline-flex {
+    width: 70%;
+    height: 70vh;
+}
